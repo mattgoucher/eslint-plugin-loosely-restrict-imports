@@ -13,6 +13,10 @@
     "test": "mocha tests --recursive",
     "release": "standard-version"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/concur/react-datepicker.git"
+  },
   "dependencies": {
     "requireindex": "~1.1.0"
   },
