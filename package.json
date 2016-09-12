@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-loosely-restrict-imports",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Loosely restrict ES6 imports",
   "keywords": [
     "eslint",
@@ -10,14 +10,16 @@
   "author": "Matt Goucher",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "mocha tests --recursive",
+    "release": "standard-version"
   },
   "dependencies": {
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
     "eslint": "~2.6.0",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "standard-version": "^2.4.0"
   },
   "engines": {
     "node": ">=0.10.0"
