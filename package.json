@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-loosely-restrict-imports",
+  "name": "@concur/eslint-plugin-loosely-restrict-imports",
   "version": "0.0.2",
   "description": "Loosely restrict ES6 imports",
   "keywords": [
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/concur/react-datepicker.git"
+    "url": "git://github.com/mattgoucher/eslint-plugin-loosely-restrict-imports.git"
   },
   "dependencies": {
     "requireindex": "~1.1.0"
