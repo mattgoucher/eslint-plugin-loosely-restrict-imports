@@ -1,6 +1,6 @@
 {
   "name": "@concur/eslint-plugin-loosely-restrict-imports",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Loosely restrict ES6 imports",
   "keywords": [
     "eslint",
