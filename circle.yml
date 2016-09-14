@@ -15,6 +15,4 @@ deployment:
   npm:
     branch: master
     commands:
-      - ./node_modules/.bin/standard-version patch -m "chore(release): version %s build ${CIRCLE_BUILD_NUM} [ci skip]"
-      - git push --follow-tags origin ${CIRCLE_BRANCH}
-      # - npm publish
+      - ./scripts/publish.sh
