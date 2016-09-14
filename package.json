@@ -11,7 +11,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
-    "test": "mocha --compilers js:babel-register tests --recursive",
+    "test": "mocha --compilers js:babel-core/register tests --recursive",
     "prerelease": "npm run build && npm run test",
     "release": "standard-version"
   },
@@ -22,6 +22,7 @@
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
     "babel-eslint": "^6.1.2",
     "babel-preset-es2015": "^6.14.0",
     "eslint": "^2.6.0",
