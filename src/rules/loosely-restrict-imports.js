@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * @fileoverview Loosely restrict ES6 imports
  * @author Matt Goucher
@@ -24,7 +22,7 @@ module.exports = {
         }
     },
 
-    create: function create(context) {
+    create(context) {
 
         // No options provided
         if (!context.options || !context.options.length) {
@@ -32,8 +30,8 @@ module.exports = {
         }
 
         return {
-            ImportDeclaration: function ImportDeclaration(node) {
-                var importStatement = void 0;
+            ImportDeclaration(node) {
+                let importStatement;
 
                 if (!node || !node.source || !node.source.value) {
                     return {};
@@ -43,7 +41,7 @@ module.exports = {
                 importStatement = node.source.value.trim();
 
                 // Loop through imported options
-                context.options.forEach(function (restricted) {
+                context.options.forEach((restricted) => {
                     if (importStatement.indexOf(restricted) === -1) {
                         return {};
                     }
@@ -53,6 +51,6 @@ module.exports = {
                     });
                 });
             }
-        };
+        }
     }
-};
+}
