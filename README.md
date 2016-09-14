@@ -22,30 +22,14 @@ $ npm install eslint-plugin-loosely-restrict-imports --save-dev
 
 Add `loosely-restrict-imports` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
-```json
-{
-    "plugins": [
-        "loosely-restrict-imports"
-    ]
-}
+```yaml
+plugins:
+    - loosely-restrict-imports
 ```
-
 
 Then configure the rules you want to use under the rules section.
 
-```json
-{
-    "rules": {
-        "loosely-restrict-imports/rule-name": 2
-    }
-}
+```yaml
+rules:
+    "loosely-restrict-imports/loosely-restrict-imports": [2, ".jsx"]
 ```
-
-## Supported Rules
-
-* Fill in provided rules here
-
-
-
-
-
