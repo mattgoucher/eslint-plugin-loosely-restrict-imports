@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.13"></a>
+## [0.1.13](https://github.com/mattgoucher/eslint-plugin-loosely-restrict-imports/compare/v0.1.12...v0.1.13) (2016-09-14)
+
+
+### Bug Fixes
+
+* add CI badge ([4f47a23](https://github.com/mattgoucher/eslint-plugin-loosely-restrict-imports/commit/4f47a23))
+* scripts don't push ([20d0e55](https://github.com/mattgoucher/eslint-plugin-loosely-restrict-imports/commit/20d0e55))
+
+
+
 <a name="0.1.12"></a>
 ## [0.1.12](https://github.com/mattgoucher/eslint-plugin-loosely-restrict-imports/compare/v0.1.11...v0.1.12) (2016-09-14)
 
