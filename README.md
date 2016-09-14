@@ -1,6 +1,6 @@
 # eslint-plugin-loosely-restrict-imports
 
-[![npm version](https://badge.fury.io/js/eslint-plugin-loosely-restrict-imports.svg)](https://badge.fury.io/js/eslint-plugin-loosely-restrict-imports)
+[![npm](https://img.shields.io/npm/v/eslint-plugin-loosely-restrict-imports.svg?maxAge=2592000)]() [![David](https://img.shields.io/david/mattgoucher/eslint-plugin-loosely-restrict-imports.svg?maxAge=2592000)]()
 
 Loosely restrict ES6 imports
 
