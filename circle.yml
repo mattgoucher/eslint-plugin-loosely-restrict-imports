@@ -1,0 +1,19 @@
+machine:
+  node: 4.5.0
+
+dependencies:
+  override:
+    - npm install
+    - npm run build
+
+test:
+  # Move compiled code to circle artifacts for debugging
+  post:
+    - cp -R $BASE_DIRECTORY/lib/ $CIRCLE_ARTIFACTS
+
+deployment:
+  branch: [master]:
+  commands:
+    - ./node_modules/.bin/standard-version patch -m "chore(release): version %s build ${CIRCLE_BUILD_NUM} [ci skip]"
+    - git push --follow-tags origin ${CIRCLE_BRANCH}
+    # - npm publish

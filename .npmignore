@@ -3,3 +3,4 @@ tests
 .eslintrc
 .babelrc
 .npm-debug.log
+circle.yml
