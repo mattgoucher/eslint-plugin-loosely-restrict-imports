@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.0"></a>
+# [0.1.0](https://github.com/mattgoucher/eslint-plugin-loosely-restrict-imports/compare/v0.0.5...v0.1.0) (2016-09-14)
+
+
+
 <a name="0.0.5"></a>
 ## [0.0.5](https://github.com/mattgoucher/eslint-plugin-loosely-restrict-imports/compare/v0.0.4...v0.0.5) (2016-09-14)
 
