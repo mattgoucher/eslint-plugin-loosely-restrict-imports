@@ -4,3 +4,4 @@ tests
 .babelrc
 .npm-debug.log
 circle.yml
+scripts
