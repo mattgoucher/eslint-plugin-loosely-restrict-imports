@@ -2,6 +2,9 @@ machine:
   node:
     version: 4.5.0
 
+  environment:
+    BASE_DIRECTORY: $HOME/$CIRCLE_PROJECT_REPONAME
+
 dependencies:
   override:
     - npm install
