@@ -1,6 +1,6 @@
 {
   "name": "@concur/eslint-plugin-loosely-restrict-imports",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Loosely restrict ES6 imports",
   "keywords": [
     "eslint",
@@ -10,19 +10,21 @@
   "author": "Matt Goucher",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests --recursive",
+    "build": "babel src -d lib",
+    "test": "mocha --compilers js:babel-register tests --recursive",
     "release": "standard-version"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/mattgoucher/eslint-plugin-loosely-restrict-imports.git"
   },
-  "dependencies": {
-    "requireindex": "~1.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "eslint": "~2.6.0",
-    "mocha": "^2.4.5",
+    "babel-cli": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-preset-es2015": "^6.14.0",
+    "eslint": "^2.6.0",
+    "mocha": "^2.5.3",
     "standard-version": "^2.4.0"
   },
   "engines": {
