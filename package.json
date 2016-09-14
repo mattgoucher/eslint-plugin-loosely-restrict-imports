@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-loosely-restrict-imports",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "Loosely restrict ES6 imports",
   "keywords": [
     "eslint",
