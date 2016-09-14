@@ -8,4 +8,4 @@ git config --global user.name "Matt Goucher"
 git push --follow-tags origin ${CIRCLE_BRANCH}
 
 # Publish to NPM
-npm publish
+# npm publish
