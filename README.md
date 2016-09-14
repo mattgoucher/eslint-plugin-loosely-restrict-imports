@@ -31,5 +31,5 @@ Then configure the rules you want to use under the rules section.
 
 ```yaml
 rules:
-    "loosely-restrict-imports/loosely-restrict-imports": [2, ".jsx"]
+    loosely-restrict-imports/loosely-restrict-imports: [2, ".jsx"]
 ```
