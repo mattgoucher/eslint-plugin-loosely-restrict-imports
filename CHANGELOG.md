@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.12"></a>
+## [0.1.12](https://github.com/mattgoucher/eslint-plugin-loosely-restrict-imports/compare/v0.1.11...v0.1.12) (2016-09-14)
+
+
+### Bug Fixes
+
+* circle yml syntax ([d1e78ec](https://github.com/mattgoucher/eslint-plugin-loosely-restrict-imports/commit/d1e78ec))
+* map node version ([5d402c8](https://github.com/mattgoucher/eslint-plugin-loosely-restrict-imports/commit/5d402c8))
+* Specify circle build directory ([6db7459](https://github.com/mattgoucher/eslint-plugin-loosely-restrict-imports/commit/6db7459))
+* test command uses babel core ([0d224f4](https://github.com/mattgoucher/eslint-plugin-loosely-restrict-imports/commit/0d224f4))
+
+
+
 <a name="0.1.11"></a>
 ## [0.1.11](https://github.com/mattgoucher/eslint-plugin-loosely-restrict-imports/compare/v0.1.10...v0.1.11) (2016-09-14)
 
