@@ -3,7 +3,7 @@ import rule from '../../../lib/rules/loosely-restrict-imports';
 
 const ruleTester = new RuleTester();
 
-ruleTester.run('no-restricted-imports', rule, {
+ruleTester.run('loosely-restrict-imports', rule, {
     valid: [
         {
             code: 'import os from \'os\';',
