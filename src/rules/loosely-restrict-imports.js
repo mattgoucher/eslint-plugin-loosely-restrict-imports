@@ -46,7 +46,8 @@ module.exports = {
                         return {};
                     }
 
-                    context.report(node, "'{{importStatement}}' import is restricted from being used.", {
+                    context.report(node, "'{{restricted}}' in '{{importStatement}}' import is restricted from being used.", {
+                        restricted,
                         importStatement
                     });
                 });

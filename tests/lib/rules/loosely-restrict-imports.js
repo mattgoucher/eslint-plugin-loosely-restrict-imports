@@ -49,7 +49,7 @@ ruleTester.run('no-restricted-imports', rule, {
             },
             errors: [
                 {
-                    message: '\'fs\' import is restricted from being used.',
+                    message: "'fs' in 'fs' import is restricted from being used.",
                     type: 'ImportDeclaration'
                 }
             ]
@@ -62,7 +62,7 @@ ruleTester.run('no-restricted-imports', rule, {
             },
             errors: [
                 {
-                    message: '\'os\' import is restricted from being used.',
+                    message: "'os' in 'os' import is restricted from being used.",
                     type: 'ImportDeclaration'
                 }
             ]
@@ -75,7 +75,7 @@ ruleTester.run('no-restricted-imports', rule, {
             },
             errors: [
                 {
-                    message: '\'Receipt.jsx\' import is restricted from being used.',
+                    message: "'.jsx' in 'Receipt.jsx' import is restricted from being used.",
                     type: 'ImportDeclaration'
                 }
             ]
