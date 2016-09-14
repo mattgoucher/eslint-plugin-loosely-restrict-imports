@@ -2,3 +2,4 @@ src
 tests
 .eslintrc
 .babelrc
+.npm-debug.log
