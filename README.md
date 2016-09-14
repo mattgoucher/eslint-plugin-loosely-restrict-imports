@@ -1,5 +1,7 @@
 # eslint-plugin-loosely-restrict-imports
 
+[![npm version](https://badge.fury.io/js/eslint-plugin-loosely-restrict-imports.svg)](https://badge.fury.io/js/eslint-plugin-loosely-restrict-imports)
+
 Loosely restrict ES6 imports
 
 ## Installation
