@@ -1,6 +1,6 @@
 # eslint-plugin-loosely-restrict-imports
 
-[![npm](https://img.shields.io/npm/v/eslint-plugin-loosely-restrict-imports.svg?maxAge=2592000)](https://www.npmjs.com/package/eslint-plugin-loosely-restrict-imports) [![David](https://img.shields.io/david/mattgoucher/eslint-plugin-loosely-restrict-imports.svg?maxAge=2592000)](https://github.com/mattgoucher/eslint-plugin-loosely-restrict-imports/blob/master/package.json)
+[![CircleCI](https://img.shields.io/circleci/project/mattgoucher/eslint-plugin-loosely-restrict-imports.svg?maxAge=2592000)](https://circleci.com/gh/mattgoucher/eslint-plugin-loosely-restrict-imports/tree/master) [![npm](https://img.shields.io/npm/v/eslint-plugin-loosely-restrict-imports.svg?maxAge=2592000)](https://www.npmjs.com/package/eslint-plugin-loosely-restrict-imports) [![David](https://img.shields.io/david/mattgoucher/eslint-plugin-loosely-restrict-imports.svg?maxAge=2592000)](https://github.com/mattgoucher/eslint-plugin-loosely-restrict-imports/blob/master/package.json)
 
 Loosely restrict ES6 imports
 
