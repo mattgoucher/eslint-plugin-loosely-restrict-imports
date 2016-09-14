@@ -12,6 +12,7 @@
   "scripts": {
     "build": "babel src -d lib",
     "test": "mocha --compilers js:babel-register tests --recursive",
+    "prerelease": "npm run test && npm run build",
     "release": "standard-version"
   },
   "repository": {
